@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "credit-card-validation-claim-audit"
+version = "0.1.0"
+description = "Offline documentation claim audit"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+[project.scripts]
+credit-card-validation-claim-audit = "credit_card_validation_claim_audit.__main__:main"
